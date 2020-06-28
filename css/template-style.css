@@ -19,16 +19,14 @@ html {
 .navbar {
     width: 100%;
     height: 72px;
-    min-width: 600px;
+    z-index: 9999;
+    position: absolute;
+    top: 0;
+    left: 0;
     padding-top: 0px;
     display: flex;
     justify-content: space-between;
     background-color: white;
-    /* position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0; */
-
 }
 
 .nav-brand {
@@ -83,13 +81,16 @@ html {
     font-size: 17px;
 }
 
-.photo img {
+.photo a img {
     width: 241px;
     height: 241px;
+
+
 }
 
 .photo {
     position: relative;
+
 }
 
 .hovering {
@@ -99,6 +100,7 @@ html {
     left: 0;
     bottom: 0;
     height: 243px;
+    padding-top: 30px;
     background-color: #E4A601;
     text-align: center;
     opacity: 0;
@@ -142,11 +144,18 @@ html {
 }
 
 .footercon {
-    margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
     color: white;
 
+}
+
+.foteritem {
+    margin-top: 100px;
+}
+
+.foteritem p {
+    color: #737373;
 }

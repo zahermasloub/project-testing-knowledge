@@ -1,13 +1,13 @@
-@media(max-width:2560px){
+@media(max-width:1024px) {
 
-    body{
+    body {
         margin: 0;
         font-family: 'Work Sans', sans-serif;
     }
-    
+
     .container {
         width: 2481px;
-        margin-left:2%;
+        margin-left: 2%;
 
     }
 
@@ -21,9 +21,9 @@
 
     .potocolection {
         width: 100%;
-        margin-left:auto;
+        margin-left: auto;
         display: grid;
-        grid-template-columns:repeat(5, 30rem);
+        grid-template-columns: repeat(5, 30rem);
     }
 
     .hovering {
@@ -40,7 +40,7 @@
         text-decoration: none;
         color: white;
         text-align: center;
-        
+
     }
 
     .hovering:hover {
