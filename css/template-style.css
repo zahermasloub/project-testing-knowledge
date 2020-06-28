@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.container {
+    width: 1200px;
+    margin-left: 30px;
+}
+
+.navbar {
+    width: 100%;
+    height: 72px;
+    min-width: 600px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0; */
+
+}
+
+.nav-brand {
+    margin-left: 10px;
+    padding-top: ;
+}
+
+.nav-brand a {
+    margin-top: 3px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+
+.item {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-left: 5rem;
+    margin-top: 10px;
+}
+
+.listItem {
+    margin-right: 15px;
+
+}
+
+
+.potocolection {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 15rem);
+}
+
+
+
+.titels {
+    width: 100%;
+}
+
+.titel1 {
+    text-align: center;
+    margin-bottom: 114px;
+    margin-top: 5rem;
+}
+
+.titel1 h1 {
+    font-size: 100px;
+}
+
+.titel1 p {
+    font-size: 17px;
+}
+
+.photo img {
+    width: 241px;
+    height: 241px;
+}
+
+.photo {
+    position: relative;
+}
+
+.hovering {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 243px;
+    background-color: #E4A601;
+    text-align: center;
+    opacity: 0;
+    transition: .8s ease;
+    text-decoration: none;
+    color: white;
+}
+
+.hovering:hover {
+    opacity: 1;
+}
+
+
+.hovering h1 {
+    padding-top: 0px;
+}
+
+.end {
+    height: 368px;
+    width: 100%;
+    background-color: #282828;
+
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon i {
+    color: #4F4F4F;
+    padding-left: 20px;
+    margin-top: 2rem;
+    font-size: 25px;
+    transition: .5s ease;
+
+}
+
+.icon i:hover {
+    color: #737373;
+
+}
+
+.footercon {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+
+}
