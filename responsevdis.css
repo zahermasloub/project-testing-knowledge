@@ -62,20 +62,22 @@
 
     .container {
         width: 2000px;
-        margin-left: 2%;
+        /* margin-left: 1%; */
 
     }
 
     .titels{
-       width:100%;
+       width:2300px;
        margin-left:10vh;
     }
 
     .navbar {
 
-        width:1500px;
+        width:2400px;
         /* height: 72px; */
-        margin-left:50vh;
+        /* margin-left:50vh; */
+        margin-left:130px;
+        padding-top:15px;
     }
 
 
@@ -112,8 +114,11 @@
         opacity: 1;
     }
 
+    .end{
+       width: 2285px;
+       margin-left:130px;
+    
+    }
 
-
-
-
+  
 }
