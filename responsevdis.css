@@ -68,7 +68,7 @@
 
     .titels{
        width:100%;
-       margin-left:50vh;
+       margin-left:10vh;
     }
 
     .navbar {
@@ -85,7 +85,7 @@
     }
 
     .potocolection {
-        width: 100%;
+        width: 2300px;
         /* margin-left: 50vh; */
         display: grid;
         grid-template-columns: repeat(5, 456.494px);
