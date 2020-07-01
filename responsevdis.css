@@ -11,12 +11,6 @@
 
     }
 
-    /* .titel1{
-        height:50vh;
-    } */
-
-    
-
     .photo img {
         width: 494px;
         height: 497px;
@@ -53,11 +47,14 @@
 }
 
 
+
+
 @media(max-width:2560px) {
 
     body {
         margin: 0;
         font-family: 'Work Sans', sans-serif;
+        background-color: blanchedalmond;
     }
 
     .container {
@@ -71,13 +68,22 @@
        margin-left:10vh;
     }
 
+    .titel1{
+        background-color: beige;
+        padding-top:40vh;
+        height:1194px;
+
+    }
+
     .navbar {
 
-        width:2400px;
+        width: 2300px;
         /* height: 72px; */
         /* margin-left:50vh; */
-        margin-left:130px;
+        margin-left:160px;
+        margin-right:100px;
         padding-top:15px;
+        background-color: #666666;
     }
 
 
@@ -87,6 +93,7 @@
     }
 
     .potocolection {
+        margin-top:10vh;
         width: 2300px;
         /* margin-left: 50vh; */
         display: grid;
